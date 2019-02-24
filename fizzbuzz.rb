@@ -3,9 +3,9 @@
 def fizzbuzz(num)
   if num % 3 == 0 && numb % 5 == 0
     "FizzBuzz"
-    elsif num % 3
+    elsif num % 3 == 0
     "Fizz"
-  elsif num % 5
+  elsif num % 5 == 0
   "Buzz"
 else
   num
